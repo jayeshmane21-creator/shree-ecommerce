@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shree</title>
+    <link rel="stylesheet" href="shree.css">
+<script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+      <nav>
+        <div class="nav">
+          <div class="nav-logo">
+            <a href="index.html">
+            <img src="project photo/logoshree.jpg"alt="shree logo">
+            </a>
+              </div>
+         
+        <li class="location-dropdown">
+            <a href="index.htm" class="location-btn"onclick ="getlocation()"> 
+            <i class="fas fa-map-marker-alt"></i>
+           <img src="project photo/geo-alt-fill (1).svg" alt=" class="location-icon">
+                <span id="user_location ">
+              <b> location</b></span>
+            </a>
+            </li>
+           
+            <div class="search-bar">
+                <input type="text" placeholder="Search shree" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <img src="project photo/search (3).svg" alt=" class="search-icon">
+                  
+                </div>
+            </div>
+
+            <div class="nav-signin border">
+                <p><span>Hello, </span></p>
+                <p class=""nav-second">
+                  <a href="login.html">
+            sign-in </a>
+           </div>
+            <div class="nav-return border">
+                <p><span>Returns</span></p>
+                <p class="nav-second">& Orders</p>
+            </div>
+
+            <div class="nav-cart border">
+    <a href="cart.html">
+        <i class="fas fa-shopping-cart"></i><img src="project photo/icons8-cart-50.png" alt=" class="cart-icon">
+         <span id="cart-count">0</span>
+    </a>
+</div>
+                 
+            </div>
+        </div>
+        </nav>
+
+        <!-- Panel Section -->
+        <div class="panel">
+            <div class="panel-all">
+                <i class="fa-solid fa-bars">
+                
+                </i> All
+            </div>
+            <div class="panel-ops">
+                <p>Today's Deals</p>
+                <p>Customer Service</p>
+                <p>Registry</p>
+                <p>Gift Cards</p>
+                <p>Sell</p>
+            </div>
+            <div class="panel-deals">
+
+     <h4 id="user"></h4>
+    <script>
+          let username = localStorage.getItem("username");
+           if (username) {
+               document.getElementById("user").innerText =
+              "Welcome, " + username + " 👋";
+           }
+          </script>    
+                  </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+   <div class="hero">
+    <div class="slideshow-container">
+        <div class="slide fade">
+            <img src="project photo/hero1.jpg" alt="Slide 1">
+        </div>
+        <div class="slide fade">
+            <img src="project photo/hero2.jpg" alt="Slide 2">
+        </div>
+        <div class="slide fade">
+            <img src="project photo/hero4.jpg" alt="Slide 3">
+              </div>
+              <div class="slide fade">
+            <img src="project photo/hero5.jpg" alt="Slide 4">
+              </div>
+              <div class="slide fade">
+            <img src="project photo/hero6.jpg" alt="Slide 5">
+              </div>
+              <div class="slide fade">
+            <img src="project photo/hero7.jpg" alt="Slide 6">
+              </div>
+              
+              <div class="slide fade">
+            <img src="project photo/hero8.jpg" alt="Slide 7">
+              </div>
+              <div class="slide fade">
+            <img src="project photo/hero9.jpg" alt="Slide 8">
+              </div>
+              <div class="slide fade">
+            <img src="project photo/hero10.png" alt="Slide 9">
+                 <a class="prev" onclick="plusSlides()"></a>
+        <a class="next" onclick="plusSlides()"></a>
+            <p>
+              <marquee>
+                You are on shree. You can also shop on shree for millions of products with fast delivery.  
+         </marquee>
+            </p>
+        </div>
+    </div>
+    </div>
+    </div>
+
+<!-- Existing Shop Section -->
+<div class="shop-section">
+
+    <!-- Shop Section -->
+    <div class="shop-section">
+        <div class="box">
+            <div class="box-content">
+                <h2>Books</h2>
+                <div class="box-img" style="background-image: url('project photo/v1.jpg');"></div>
+                <p><a href="Books.html"category=new arrival toyes" class="see-more-btn">See more</a></p>     
+             </div>
+         </div>
+        <div class="box">
+            <div class="box-content">
+                <h2>Electronics</h2>
+                <div class="box-img" style="background-image: url('project photo/IMG_20250314_144140.jpg');"></div>
+               <p><a href="Electronics.html"category=Electronics" class="see-more-btn">See more</a></p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2>Health & Personal Care / Daily Use</h2>
+               <div class="box-img" style="background-image: url('project photo/thumbnail\ \(1\).jpeg');"></div> 
+               <p><a href="health.html"category=health" class="see-more-btn">See more</a></p>
+               </div>
+        </div>
+
+        <div class="box">
+            <div class="box-content">
+                <h2>Clothes</h2>
+                <div class="box-img" style="background-image: url('project photo/cloth image');"></div>
+               <p><a href="cloth.html"category=health" class="see-more-btn">See more</a></p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="box-content">
+                <h2>Furniture</h2>
+                <div class="box-img" style="background-image: url('project photo/furniture.image');"></div>
+               <p><a href="furniture.html"category=furniture" class="see-more-btn">See more</a></p>
+              
+            </div>
+        </div>
+
+       
+        <div class="box">
+            <div class="box-content">
+                <h2>Beauty Picks</h2>
+                <div class="box-img" style="background-image: url('project photo/beauty.image');"></div>
+                <p><a href="beauti picks.html"category=beauty picks" class="see-more-btn">See more</a></p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="box-content">
+                <h2>Pet Care</h2>
+                <div class="box-img" style="background-image: url('project photo/pet care.image');"></div>
+                <p><a href="petcare.html"category=pet care" class="see-more-btn"> See more</a></p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="box-content">
+                <h2>New Arrivals in Toys</h2>
+                <div class="box-img" style="background-image: url('project photo/toyes. png');"></div>
+               <p><a href="new toys.html"category=new arrival toyes" class="see-more-btn">See more</a></p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="box-content">
+                <h2>Footwear</h2>
+                <div class="box-img" style="background-image: url('project photo/footwear. image');"></div>
+                <p><a href="footware.html"category=new arrival toyes" class="see-more-btn">See more</a></p>
+      
+                </div>
+                </div>
+        
+       
+                 </div>
+        </div>
+    </div>
+    <footer>
+    <div class="foot-panel">
+        <a href="#">Back to top</a>
+    </div>
+
+    <div class="foot-panel-2">
+        <ul>
+            <p>Get to Know Us</p>
+            <a href="#">Careers</a>
+            <a href="#">Blog</a>
+            <a href="#">About Shree</a>
+            <a href="#">Investor Relations</a>
+            <a href="#">Devices</a>
+            <a href="#">Science</a>
+        </ul>
+
+        <ul>
+            <p>Make Money with Us</p>
+            <a href="#">Sell on Shree</a>
+            <a href="#">Become an Affiliate</a>
+            <a href="#">Advertise Your Products</a>
+            <a href="#">Shree Business</a>
+        </ul>
+
+        <ul>
+            <p>Contact Us</p>
+            <a href="mailto:support@shree.com">Email: support@shree.com</a>
+            <a href="tel:+1234567890">Phone: +91 9156002433</a>
+            <a href="#">Address:A.P shrigonda,shrigonda ,INDIA </a>
+        </ul>
+
+        <ul>
+            <p>Follow Us</p>
+            <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+            <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+            <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        </ul>
+
+        <ul>
+            <p>Legal</p>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </ul>
+    </div>
+
+    <div class="foot-panel-3">
+        <p>Subscribe to Our Newsletter</p>
+        <form action="#" method="post">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+
+    <div class="foot-panel-4">
+        <p>© 2025 Shree. All Rights Reserved.</p>
+    </div>
+</footer>
+  
+<script>
+    document.querySelectorAll(".see-more-btn").forEach(button => {
+        button.addEventListener("click", () => {
+            const targetId = button.dataset.target;
+            const targetDiv = document.getElementById(targetId);
+            targetDiv.classList.toggle("hidden");
+        });
+    });
+</script>
+</body>
+</html>
