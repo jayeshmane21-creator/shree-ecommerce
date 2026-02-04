@@ -176,6 +176,37 @@
     </div>
 </footer>
 
+ <script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    // Add to Cart buttons
+    document.querySelectorAll(".add-to-cart").forEach(button => {
+        button.addEventListener("click", function () {
+            const product = this.getAttribute("data-product");
+
+            fetch(`http://localhost:8080/add-to-cart?product=${product}`)
+                .then(res => res.text())
+                .then(data => alert(data))
+                .catch(err => alert("Cart Error: " + err));
+        });
+    });
+
+    // Buy Now buttons
+    document.querySelectorAll(".buy-now").forEach(button => {
+        button.addEventListener("click", function () {
+            const product = this.getAttribute("data-product");
+
+            fetch(`http://localhost:8080/buy?product=${product}`)
+                .then(res => res.text())
+                .then(data => alert(data))
+                .catch(err => alert("Buy Error: " + err));
+        });
+    });
+
+});
+</script>
+
+
 </body>
 </html> 
   
