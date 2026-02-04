@@ -1,254 +1,344 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product Details</title>
-    <link rel="stylesheet" href="shree.css">
+    <link rel="stylesheet" href="shree.css" />
     <script defer src="product-details.js"></script>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <!-- Navigation Bar -->
     <header>
-       <nav>
+      <nav>
         <div class="nav">
           <div class="nav-logo">
             <a href="index.htm">
-            <img src="project photo/logoshree.jpg"alt="shree logo">
+              <img src="project photo/logoshree.jpg" alt="shree logo" />
             </a>
-              </div>
-         
-        <li class="location-dropdown">
-            <a href="index.htm" class="location-btn"> 
-            <i class="fas fa-map-marker-alt"></i>
-                <img src="project photo/geo-alt-fill (1).svg" alt=" class="location-icon">
+          </div>
+
+          <li class="location-dropdown">
+            <a href="index.htm" class="location-btn">
+              <i class="fas fa-map-marker-alt"></i>
+              <img
+                src="project photo/geo-alt-fill (1).svg"
+                alt=" 
+                class="location-icon"
+              />
             </a>
-            </li>
-           
-            <div class="search-bar">
-                <input type="text" placeholder="Search shree" class="search-input">
-                <div class="search-icon">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <img src="project photo/search (3).svg" alt=" class="search-icon">
-                  
-                </div>
-            </div>
+          </li>
 
-            <div class="nav-signin border"> 
-                <p><span>Hello, </span></p>
-                <p class=""nav-second">
-                  <a href="login.html">
-            sign-in </a>
-           </div>
-            <div class="nav-return border">
-                <p><span>Returns</span></p>
-                <p class="nav-second">& Orders</p>
+          <div class="search-bar">
+            <input
+              type="text"
+              placeholder="Search shree"
+              class="search-input"
+            />
+            <div class="search-icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <img
+                src="project photo/search (3).svg"
+                alt=" 
+                class="search-icon"
+              />
             </div>
+          </div>
 
-            <div class="nav-cart border">
-    <a href="cart.html">
-        <i class="fas fa-shopping-cart"></i><img src="project photo/icons8-cart-50.png" alt=" class="cart-icon">
-         <span id="cart-count">0</span>
-    </a>
-</div>
-                 
-            </div>
+          <div class="nav-signin border">
+            <p><span>Hello, </span></p>
+            <p class="" nav-second>
+              <a href="login.html"> sign-in </a>
+            </p>
+          </div>
+          <div class="nav-return border">
+            <p><span>Returns</span></p>
+            <p class="nav-second">& Orders</p>
+          </div>
+
+          <div class="nav-cart border">
+            <a href="cart.html">
+              <i class="fas fa-shopping-cart"></i
+              ><img
+                src="project photo/icons8-cart-50.png"
+                alt=" 
+                class="cart-icon"
+              />
+              <span id="cart-count">0</span>
+            </a>
+          </div>
         </div>
-        </nav>
+      </nav>
 
-        <!-- Panel Section -->
-        <div class="panel">
-            <div class="panel-all">
-                <i class="fa-solid fa-bars">
-                
-                </i> All
-            </div>
-            <div class="panel-ops">
-                <p>Today's Deals</p>
-                <p>Customer Service</p>
-                <p>Registry</p>
-                <p>Gift Cards</p>
-                <p>Sell</p>
-            </div>
-            <div class="panel-deals">
-                Shop deals in Electronics
-            </div>
+      <!-- Panel Section -->
+      <div class="panel">
+        <div class="panel-all"><i class="fa-solid fa-bars"> </i> All</div>
+        <div class="panel-ops">
+          <p>Today's Deals</p>
+          <p>Customer Service</p>
+          <p>Registry</p>
+          <p>Gift Cards</p>
+          <p>Sell</p>
         </div>
+        <div class="panel-deals">Shop deals in Electronics</div>
+      </div>
     </header>
-    <br>
-  
-    <h1>Top Brended Laptops </h1>
-    <br>
-         <div class="product-container">
-        <div class="product">
-           <img src="project photo/e1l1.jpg" alt="Product 1">
-           <p><b>Apple 2025 MacBook Air 13-inch Laptop with M4 chip: Built for Apple Intelligence, 13.6-inch Liquid Retina Display, 16GB Unified Memory, 256GB SSD Storage, 12MP  Camera, Touch ID; Sky Blue
-              </b></p>
-              <button class="add-to-cart" data-product="Laptop">Add to Cart</button>
-                <button class="buy-now" data-product="Laptop">Buy Now</button>
-           </div>
-        <div class="product">
-            <img src="project photo/e1l2.jpg" alt="Product 2">
-            <p><b> Dell Inspiron 16 Plus 7640 Laptop - 16.0-inch 16:10 2.5K (2560x1600), Intel Core Ultra 7-155H, NVIDIA GeForce RTX 4050, 16GB DDR5 RAM, 1TB SSD,Windows 11 Home, - Ice Blue...</b></p>
-           <button  class="add-to-cart" data-product="Laptop">Add to Cart</button>
-           <button  class="buy-now" data-product="Laptop">Buy Now</button>
-        </div>
-        <div class="product">
-            <img src="project photo/e1l3.jpg" alt="Product 3">
-            <p><b> HP 17 Laptop, 17.3" FHD Display, 32GB RAM, 1TB SSD, AMD Ryzen 5 Processor(Beats i7-1165G7, Up to 4.3GHz), Webcam, Numeric Keypad, Long Battery Life, Windows 11 Home...</b></p>
-            <button  class="add-to-cart" data-product="Laptop">Add to Cart</button>
-              <button  class="buy-now" data-product="Laptop">Buy Now</button>
-         </div><br>
-          <h1> Smartphones </h1> <br>
-        <div class="product">
-            <img src="project photo/e1s1.jpg" alt="Product 4">
-            <p><b>16 PROMAX Unlocked Phone, 8+256GB Smartphone, Android 13.0, Long Battery Life 7000mAh, 6.99“ HD Screen with 128GB Memory Card, Face ID/Dual SIM/5G/
-            </b></p>
-            <button class="add-to-cart" data-product="Mobile">Add to Cart</button>
-           <button class="buy-now" data-product="Mobile">Buy Now</button>
-               </div>
-        <div class="product">
-            <img src="project photo/e1s2.jpg" alt="Product 5"><br>
-            <p><b> Bold K50 | 5G| 2024 | 3-Day Battery | Unlocked | 6.7” FHD+ 3D AMOLED | 256/8GB | Triple 64MP Camera | US Version | US Warranty | Purple</b></p><br>
-            <button class="add-to-cart" data-product="Mobile">Add to Cart</button>
-            <button class="buy-now" data-product="Mobile">Buy Now</button>
+    <br />
 
-        </div>
-        <div class="product">
-            <img src="project photo/e1s3.jpg" alt="Product 6"> 
-            <p><b>SAMSUNG Galaxy S25 Ultra Cell Phone, 256GB AI Smartphone, Unlocked Android, AI Camera, Fast Processor, Long Battery Life, 2025, US 1 Yr Manufacturer Warranty, Titanium Black </b></p>
-            <button class="add-to-cart" data-product="Mobile">Add to Cart</button>
-             <button class="buy-now" data-product="Mobile">Buy Now</button>
-        </div> <br>
-            <h1>Headphones</h1>
-            <br>
-            
-        <div class="product">
-           <img src="project photo/e1h1.jpg" alt="Product 7">
-            <p><b>Roll over image to zoom in BERIBES Bluetooth Headphones Over Ear, 65H Playtime and 6 EQ Music Modes Wireless Headphones with Microphone, HiFi Stereo Foldable Lightweight Headset, . </b></p>
-             <button class="add-to-cart" data-product="Headphones">Add to Cart</button>
-            <button class="buy-now" data-product="Headphones">Buy Now</button>
-        </div>
-        <div class="product">
-            <img src="project photo/e1h2.jpg" alt="Product 8">
-            <p><b> Wireless Earbuds Bluetooth Headphones, Ear Buds with Deep Bass, 40H Long Playtime, Power Display, IPX7 Waterproof in Ear Earphone</b></p><br>
-            <button class="add-to-cart" data-product="Headphones">Add to Cart</button>
-            <button class="buy-now" data-product="Headphones">Buy Now</button>        </div>
-        <div class="product">
-            <img src="project photo/e1h3.jpg" alt="Product 9">
-            <p><b> Kids Headphones - noot products K11 Foldable Stereo Tangle-Free 3.5mm Jack Wired Cord On-Ear Headset for Children/Teens/Boys/Girls.. (Navy/Teal) 
-            </b></p><br>
-            <button class="add-to-cart" data-product="Headphones">Add to Cart</button>
-            <button class="buy-now" data-product="Headphones">Buy Now</button>            </div><br>
-            <h1>Smartwatch</h1>
-            <br>
-            
-         <div class="product">
-            <img src="project photo/e1w1.jpg" alt="Product 10"><br><br>
-            <p><b>Suitisbest Leather Bands Compatible for Apple Watch Ultra Band 49mm 46mm 45mm 44mm 42mm, Genuine Leather Rugged Durable Matel Connector.....</b></p>
-            <button class="add-to-cart" data-product="watches">Add to Cart</button>
-            <button class="buy-now" data-product="watches">Buy Now</button>        </div>
-        <div class="product">
-            <img src="project photo/e1w2.jpg" alt="Product 11">
-            <p><b> Smart Watch for Men Women Bluetooth Call, 1.95" HD Touch Screen Fitness Watch with Sleep Heart Rate Monitor, 100+ Sports Modes, IP6 Waterproof Activity </b></p>
-             <button class="add-to-cart" data-product="watches">Add to Cart</button>
-            <button class="buy-now" data-product="watches">Buy Now</button>        </div>
-        <div class="product">
-            <img src="project photo/e1w3.jpg" alt="Product 12">
-            <p><b>Smart Watch, Fitness Tracker with Heart Rate Monitor, Blood Oxygen, Sleep Tracking, 1.5 Inch Touchscreen Smartwatch for Android iOSSwimming Waterproof Pedometer..</b></p>
-             <button class="add-to-cart" data-product="watches">Add to Cart</button>
-            <button class="buy-now" data-product="watches">Buy Now</button>         </div></div> <br>
-          <footer>
-    <div class="foot-panel">
+    <h1>Top Brended Laptops</h1>
+    <br />
+    <div class="product-container">
+      <div class="product">
+        <img src="project photo/e1l1.jpg" alt="Product 1" />
+        <p>
+          <b
+            >Apple 2025 MacBook Air 13-inch Laptop with M4 chip: Built for Apple
+            Intelligence, 13.6-inch Liquid Retina Display, 16GB Unified Memory,
+            256GB SSD Storage, 12MP Camera, Touch ID; Sky Blue
+          </b>
+        </p>
+        <button class="add-to-cart" data-product="Laptop">Add to Cart</button>
+        <button class="buy-now" data-product="Laptop">Buy Now</button>
+      </div>
+      <div class="product">
+        <img src="project photo/e1l2.jpg" alt="Product 2" />
+        <p>
+          <b>
+            Dell Inspiron 16 Plus 7640 Laptop - 16.0-inch 16:10 2.5K
+            (2560x1600), Intel Core Ultra 7-155H, NVIDIA GeForce RTX 4050, 16GB
+            DDR5 RAM, 1TB SSD,Windows 11 Home, - Ice Blue...</b
+          >
+        </p>
+        <button class="add-to-cart" data-product="Laptop">Add to Cart</button>
+        <button class="buy-now" data-product="Laptop">Buy Now</button>
+      </div>
+      <div class="product">
+        <img src="project photo/e1l3.jpg" alt="Product 3" />
+        <p>
+          <b>
+            HP 17 Laptop, 17.3" FHD Display, 32GB RAM, 1TB SSD, AMD Ryzen 5
+            Processor(Beats i7-1165G7, Up to 4.3GHz), Webcam, Numeric Keypad,
+            Long Battery Life, Windows 11 Home...</b
+          >
+        </p>
+        <button class="add-to-cart" data-product="Laptop">Add to Cart</button>
+        <button class="buy-now" data-product="Laptop">Buy Now</button>
+      </div>
+      <br />
+      <h1>Smartphones</h1>
+      <br />
+      <div class="product">
+        <img src="project photo/e1s1.jpg" alt="Product 4" />
+        <p>
+          <b
+            >16 PROMAX Unlocked Phone, 8+256GB Smartphone, Android 13.0, Long
+            Battery Life 7000mAh, 6.99“ HD Screen with 128GB Memory Card, Face
+            ID/Dual SIM/5G/
+          </b>
+        </p>
+        <button class="add-to-cart" data-product="Mobile">Add to Cart</button>
+        <button class="buy-now" data-product="Mobile">Buy Now</button>
+      </div>
+      <div class="product">
+        <img src="project photo/e1s2.jpg" alt="Product 5" /><br />
+        <p>
+          <b>
+            Bold K50 | 5G| 2024 | 3-Day Battery | Unlocked | 6.7” FHD+ 3D AMOLED
+            | 256/8GB | Triple 64MP Camera | US Version | US Warranty |
+            Purple</b
+          >
+        </p>
+        <br />
+        <button class="add-to-cart" data-product="Mobile">Add to Cart</button>
+        <button class="buy-now" data-product="Mobile">Buy Now</button>
+      </div>
+      <div class="product">
+        <img src="project photo/e1s3.jpg" alt="Product 6" />
+        <p>
+          <b
+            >SAMSUNG Galaxy S25 Ultra Cell Phone, 256GB AI Smartphone, Unlocked
+            Android, AI Camera, Fast Processor, Long Battery Life, 2025, US 1 Yr
+            Manufacturer Warranty, Titanium Black
+          </b>
+        </p>
+        <button class="add-to-cart" data-product="Mobile">Add to Cart</button>
+        <button class="buy-now" data-product="Mobile">Buy Now</button>
+      </div>
+      <br />
+      <h1>Headphones</h1>
+      <br />
+
+      <div class="product">
+        <img src="project photo/e1h1.jpg" alt="Product 7" />
+        <p>
+          <b
+            >Roll over image to zoom in BERIBES Bluetooth Headphones Over Ear,
+            65H Playtime and 6 EQ Music Modes Wireless Headphones with
+            Microphone, HiFi Stereo Foldable Lightweight Headset, .
+          </b>
+        </p>
+        <button class="add-to-cart" data-product="Headphones">
+          Add to Cart
+        </button>
+        <button class="buy-now" data-product="Headphones">Buy Now</button>
+      </div>
+      <div class="product">
+        <img src="project photo/e1h2.jpg" alt="Product 8" />
+        <p>
+          <b>
+            Wireless Earbuds Bluetooth Headphones, Ear Buds with Deep Bass, 40H
+            Long Playtime, Power Display, IPX7 Waterproof in Ear Earphone</b
+          >
+        </p>
+        <br />
+        <button class="add-to-cart" data-product="Headphones">
+          Add to Cart
+        </button>
+        <button class="buy-now" data-product="Headphones">Buy Now</button>
+      </div>
+      <div class="product">
+        <img src="project photo/e1h3.jpg" alt="Product 9" />
+        <p>
+          <b>
+            Kids Headphones - noot products K11 Foldable Stereo Tangle-Free
+            3.5mm Jack Wired Cord On-Ear Headset for Children/Teens/Boys/Girls..
+            (Navy/Teal)
+          </b>
+        </p>
+        <br />
+        <button class="add-to-cart" data-product="Headphones">
+          Add to Cart
+        </button>
+        <button class="buy-now" data-product="Headphones">Buy Now</button>
+      </div>
+      <br />
+      <h1>Smartwatch</h1>
+      <br />
+
+      <div class="product">
+        <img src="project photo/e1w1.jpg" alt="Product 10" /><br /><br />
+        <p>
+          <b
+            >Suitisbest Leather Bands Compatible for Apple Watch Ultra Band 49mm
+            46mm 45mm 44mm 42mm, Genuine Leather Rugged Durable Matel
+            Connector.....</b
+          >
+        </p>
+        <button class="add-to-cart" data-product="watches">Add to Cart</button>
+        <button class="buy-now" data-product="watches">Buy Now</button>
+      </div>
+      <div class="product">
+        <img src="project photo/e1w2.jpg" alt="Product 11" />
+        <p>
+          <b>
+            Smart Watch for Men Women Bluetooth Call, 1.95" HD Touch Screen
+            Fitness Watch with Sleep Heart Rate Monitor, 100+ Sports Modes, IP6
+            Waterproof Activity
+          </b>
+        </p>
+        <button class="add-to-cart" data-product="watches">Add to Cart</button>
+        <button class="buy-now" data-product="watches">Buy Now</button>
+      </div>
+      <div class="product">
+        <img src="project photo/e1w3.jpg" alt="Product 12" />
+        <p>
+          <b
+            >Smart Watch, Fitness Tracker with Heart Rate Monitor, Blood Oxygen,
+            Sleep Tracking, 1.5 Inch Touchscreen Smartwatch for Android
+            iOSSwimming Waterproof Pedometer..</b
+          >
+        </p>
+        <button class="add-to-cart" data-product="watches">Add to Cart</button>
+        <button class="buy-now" data-product="watches">Buy Now</button>
+      </div>
+    </div>
+    <br />
+    <footer>
+      <div class="foot-panel">
         <a href="#">Back to top</a>
-    </div>
+      </div>
 
-    <div class="foot-panel-2">
+      <div class="foot-panel-2">
         <ul>
-            <p>Get to Know Us</p>
-            <a href="#">Careers</a>
-            <a href="#">Blog</a>
-            <a href="#">About Shree</a>
-            <a href="#">Investor Relations</a>
-            <a href="#">Devices</a>
-            <a href="#">Science</a>
+          <p>Get to Know Us</p>
+          <a href="#">Careers</a>
+          <a href="#">Blog</a>
+          <a href="#">About Shree</a>
+          <a href="#">Investor Relations</a>
+          <a href="#">Devices</a>
+          <a href="#">Science</a>
         </ul>
 
         <ul>
-            <p>Make Money with Us</p>
-            <a href="#">Sell on Shree</a>
-            <a href="#">Become an Affiliate</a>
-            <a href="#">Advertise Your Products</a>
-            <a href="#">Shree Business</a>
+          <p>Make Money with Us</p>
+          <a href="#">Sell on Shree</a>
+          <a href="#">Become an Affiliate</a>
+          <a href="#">Advertise Your Products</a>
+          <a href="#">Shree Business</a>
         </ul>
 
         <ul>
-            <p>Contact Us</p>
-            <a href="mailto:support@shree.com">Email: support@shree.com</a>
-            <a href="tel:+1234567890">Phone: +91 9156002433</a>
-            <a href="#">Address:A.P shrigonda,shrigonda ,INDIA </a>
+          <p>Contact Us</p>
+          <a href="mailto:support@shree.com">Email: support@shree.com</a>
+          <a href="tel:+1234567890">Phone: +91 9156002433</a>
+          <a href="#">Address:A.P shrigonda,shrigonda ,INDIA </a>
         </ul>
 
         <ul>
-            <p>Follow Us</p>
-            <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
-            <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
-            <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
-            <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          <p>Follow Us</p>
+          <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+          <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+          <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+          <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
         </ul>
 
         <ul>
-            <p>Legal</p>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Service</a>
+          <p>Legal</p>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
         </ul>
-    </div>
+      </div>
 
-    <div class="foot-panel-3">
+      <div class="foot-panel-3">
         <p>Subscribe to Our Newsletter</p>
         <form action="#" method="post">
-            <input type="email" placeholder="Enter your email" required>
-            <button type="submit">Subscribe</button>
+          <input type="email" placeholder="Enter your email" required />
+          <button type="submit">Subscribe</button>
         </form>
-    </div>
+      </div>
 
-    <div class="foot-panel-4">
+      <div class="foot-panel-4">
         <p>© 2025 Shree. All Rights Reserved.</p>
-    </div>
-</footer>
+      </div>
+    </footer>
 
- <script>
-document.addEventListener("DOMContentLoaded", function () {
-
-    // Add to Cart buttons
-    document.querySelectorAll(".add-to-cart").forEach(button => {
-        button.addEventListener("click", function () {
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Add to Cart buttons
+        document.querySelectorAll(".add-to-cart").forEach((button) => {
+          button.addEventListener("click", function () {
             const product = this.getAttribute("data-product");
 
             fetch(`http://localhost:8080/add-to-cart?product=${product}`)
-                .then(res => res.text())
-                .then(data => alert(data))
-                .catch(err => alert("Cart Error: " + err));
+              .then((res) => res.text())
+              .then((data) => alert(data))
+              .catch((err) => alert("Cart Error: " + err));
+          });
         });
-    });
 
-    // Buy Now buttons
-    document.querySelectorAll(".buy-now").forEach(button => {
-        button.addEventListener("click", function () {
+        // Buy Now buttons
+        document.querySelectorAll(".buy-now").forEach((button) => {
+          button.addEventListener("click", function () {
             const product = this.getAttribute("data-product");
 
             fetch(`http://localhost:8080/buy?product=${product}`)
-                .then(res => res.text())
-                .then(data => alert(data))
-                .catch(err => alert("Buy Error: " + err));
+              .then((res) => res.text())
+              .then((data) => alert(data))
+              .catch((err) => alert("Buy Error: " + err));
+          });
         });
-    });
-
-});
-</script>
-
-
-</body>
+      });
+    </script>
+  </body>
 </html>

@@ -1,213 +1,327 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product Details</title>
-    <link rel="stylesheet" href="shree.css">
+    <link rel="stylesheet" href="shree.css" />
     <script defer src="script.js"></script>
-</head>
-<body>
-
+  </head>
+  <body>
     <!-- Navigation Bar -->
     <header>
-       <nav>
+      <nav>
         <div class="nav">
           <div class="nav-logo">
             <a href="index.htm">
-            <img src="project photo/logoshree.jpg"alt="shree logo">
+              <img src="project photo/logoshree.jpg" alt="shree logo" />
             </a>
-              </div>
-         
-        <li class="location-dropdown">
-            <a href="index.htm" class="location-btn"> 
-            <i class="fas fa-map-marker-alt"></i>
-                <img src="project photo/geo-alt-fill (1).svg" alt=" class="location-icon">
+          </div>
+
+          <li class="location-dropdown">
+            <a href="index.htm" class="location-btn">
+              <i class="fas fa-map-marker-alt"></i>
+              <img
+                src="project photo/geo-alt-fill (1).svg"
+                alt=" 
+                class="location-icon"
+              />
             </a>
-            </li>
-           
-            <div class="search-bar">
-                <input type="text" placeholder="Search shree" class="search-input">
-                <div class="search-icon">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <img src="project photo/search (3).svg" alt=" class="search-icon">
-                  
-                </div>
-            </div>
+          </li>
 
-            <div class="nav-signin border"> 
-                <p><span>Hello, </span></p>
-                <p class=""nav-second">
-                  <a href="signin.html">
-            sign-in </a>
-           </div>
-            <div class="nav-return border">
-                <p><span>Returns</span></p>
-                <p class="nav-second">& Orders</p>
+          <div class="search-bar">
+            <input
+              type="text"
+              placeholder="Search shree"
+              class="search-input"
+            />
+            <div class="search-icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <img
+                src="project photo/search (3).svg"
+                alt=" 
+                class="search-icon"
+              />
             </div>
+          </div>
 
-            <div class="nav-cart border">
-    <a href="cart.html">
-        <i class="fas fa-shopping-cart"></i><img src="project photo/icons8-cart-50.png" alt=" class="cart-icon">
-         <span id="cart-count">0</span>
-    </a>
-</div>
-                 
-            </div>
-        
-        </nav>
+          <div class="nav-signin border">
+            <p><span>Hello, </span></p>
+            <p class="" nav-second>
+              <a href="signin.html"> sign-in </a>
+            </p>
+          </div>
+          <div class="nav-return border">
+            <p><span>Returns</span></p>
+            <p class="nav-second">& Orders</p>
+          </div>
 
-        <!-- Panel Section -->
-        <div class="panel">
-            <div class="panel-all">
-                <i class="fa-solid fa-bars">
-                
-                </i> All
-            </div>
-            <div class="panel-ops">
-                <p>Today's Deals</p>
-                <p>Customer Service</p>
-                <p>Registry</p>
-                <p>Gift Cards</p>
-                <p>Sell</p>
-            </div>
-            <div class="panel-deals">
-                Shop deals in Electronics
-            </div>
+          <div class="nav-cart border">
+            <a href="cart.html">
+              <i class="fas fa-shopping-cart"></i
+              ><img
+                src="project photo/icons8-cart-50.png"
+                alt=" class="
+                cart-icon
+              />
+              <span id="cart-count">0</span>
+            </a>
+          </div>
         </div>
+      </nav>
+
+      <!-- Panel Section -->
+      <div class="panel">
+        <div class="panel-all"><i class="fa-solid fa-bars"> </i> All</div>
+        <div class="panel-ops">
+          <p>Today's Deals</p>
+          <p>Customer Service</p>
+          <p>Registry</p>
+          <p>Gift Cards</p>
+          <p>Sell</p>
+        </div>
+        <div class="panel-deals">Shop deals in Electronics</div>
+      </div>
     </header>
-    <br>
-    <h1>Health Care Products </h1>
-    <br>
-         <div class="product-container">
-        <div class="product">
-           <img src="project photo/h1p1.jpg" alt="Product 1">
-            <p><b>Bournvita Chocolate Nutrition Drink, 2 Kg.impove the strength of brain ,more fresh,more nutrient,more healthy,
-            healthy chocolate-healthy-bournvita </b></p>
-          <button class="add-to-cart" data-product="Health Product">Add to Cart</button>
-           <button class="buy-now" data-product="Health Product">Buy Now</button>
-                   </div>
-        <div class="product">
-            <img src="project photo/h1p2.jpg" alt="Product 2">
-            <p><b> Protinex Diabetes Care (Creamy Vanilla Flavor, 400gm, Jar)to help support Blood Sugar Control and Reduction in Cholesterol.
-            </b></p>
- <button class="add-to-cart" data-product="Health Product">Add to Cart</button>
-           <button class="buy-now" data-product="Health Product">Buy Now</button>        </div>
-        <div class="product">
-            <img src="project photo/h1p3.jpg"alt="Product 3">
-            <p><b> Dabur Chyawanprash - 950g | With 40+ Ayurvedic Herbs | Helps Build Strength & Stamina | Builds Overall Health </b></b><br>
-<br>
-                <button class="add-to-cart" data-product="Health Product">Add to Cart</button>
-           <button class="buy-now" data-product="Health Product">Buy Now</button>            </div>
-          
-        <div class="product">
-            <img src="project photo/h1p4.jpg" alt="Product 4">
-            <p><b>Complan Nutrition Drink Powder for Children, Kesar Badam Flavour, 500 g Carton | Nutrition drink for kids with protein & 34 vital nutrients</b></p>
- <button class="add-to-cart" data-product="Health Product">Add to Cart</button>
-           <button class="buy-now" data-product="Health Product">Buy Now</button>        </div>
-        <div class="product">
-            <img src="project photo/h1p5.jpg" alt="Product 5">
-            <p><b> Horlicks Nutrition drink jar-1kg ,classic maltclinically proven to make kids taller,stronger,sharper 
-            improve brain power</b><br><br><br>
- <button class="add-to-cart" data-product="Health Product">Add to Cart</button>
-           <button class="buy-now" data-product="Health Product">Buy Now</button>        </div>
-        <div class="product">
-            <img src="project photo/h1p6.jpg" alt="Product 6">
-            <p><b>Gluvon-D trangly orange glucose power (1kg,refil)tasky orange flavoured glucose drink| provides instent engery,vitamin-c </b><br><br>
- <button class="add-to-cart" data-product="Health Product">Add to Cart</button>
-           <button class="buy-now" data-product="Health Product">Buy Now</button>            </div> <br>
-            <h1>Daily use products</h1>
-            <br>
-        <div class="product">
-           <img src="project photo/h1d1.jpg" alt="Product 1">
-            <p><b>(Colgate Strong Teeth, 700G, India S No: 1 Toothpaste Brand, Calcium-Boost Tooth Paste For 2X Stronger Teeth, Whitens Teeth)..</b></p>
- <button class="add-to-cart" data-product="Daily use products">Add to Cart</button>
-           <button class="buy-now" data-product="Daily use products">Buy Now</button>        </div>
-        <div class="product">
-            <img src="project photo/h1d2.jpg" alt="Product 2">
-            <p><b>Colgate MaxFresh Toothpaste, Red Gel Tooth Paste with Menthol for Super Fresh Breath, 150g (Spicy Fresh)colgaet maxfresh- mood fresh 
-            </b></p>
-<button class="add-to-cart" data-product="Daily use products">Add to Cart</button>
-           <button class="buy-now" data-product="Daily use products">Buy Now</button>            </div>
-        <div class="product">
-            <img src="project photo/h1d3.jpg" alt="Product 3">
-            <p><b>Clinic Plus Strong & Long Shampoo 1 L|| With Milk Proteins & Multivitamins for Healthy and Long Hair - Strengthening Shampoo for Hair Growth</b></p>
-<button class="add-to-cart" data-product="Daily use products">Add to Cart</button>
-           <button class="buy-now" data-product="Daily use products">Buy Now</button>                </div>
-         <div class="product">
-            <img src="project photo/h1d4.jpg" alt="Product 4">
-            <p><b>Dettol Antiseptic Liquid for First Aid, Surface Disinfection and Personal Hygiene, 750ml</b></p>
-<button class="add-to-cart" data-product="Daily use products">Add to Cart</button>
-           <button class="buy-now" data-product="Daily use products">Buy Now</button>            </div>
-        <div class="product">
-            <img src="project photo/h1d5.jpg" alt="Product 5">
-            <p><b>All Out Ultra Liquid Vaporizer, 6 Refills (45ml each) | Kills Dengue, Malaria & Chikungunya Spreading Mosquitoes|  </b></p>
-<button class="add-to-cart" data-product="Daily use products">Add to Cart</button>
-           <button class="buy-now" data-product="Daily use products">Buy Now</button>            </div>
-        <div class="product">
-            <img src="project photo/h1d6.jpg" alt="Product 6">
-            <p><b>HIT Flying Insect Killer - Mosquito & Fly Killer Spray (400ml) | Lime Fragrance | Instant Kill |</b></p>
-<button class="add-to-cart" data-product="Daily use products">Add to Cart</button>
-           <button class="buy-now" data-product="Daily use products">Buy Now</button>             </div></div> <br>
-         <footer>
-    <div class="foot-panel">
+    <br />
+    <h1>Health Care Products</h1>
+    <br />
+    <div class="product-container">
+      <div class="product">
+        <img src="project photo/h1p1.jpg" alt="Product 1" />
+        <p>
+          <b
+            >Bournvita Chocolate Nutrition Drink, 2 Kg.impove the strength of
+            brain ,more fresh,more nutrient,more healthy, healthy
+            chocolate-healthy-bournvita
+          </b>
+        </p>
+        <button class="add-to-cart" data-product="Health Product">
+          Add to Cart
+        </button>
+        <button class="buy-now" data-product="Health Product">Buy Now</button>
+      </div>
+      <div class="product">
+        <img src="project photo/h1p2.jpg" alt="Product 2" />
+        <p>
+          <b>
+            Protinex Diabetes Care (Creamy Vanilla Flavor, 400gm, Jar)to help
+            support Blood Sugar Control and Reduction in Cholesterol.
+          </b>
+        </p>
+        <button class="add-to-cart" data-product="Health Product">
+          Add to Cart
+        </button>
+        <button class="buy-now" data-product="Health Product">Buy Now</button>
+      </div>
+      <div class="product">
+        <img src="project photo/h1p3.jpg" alt="Product 3" />
+        <p>
+          <b>
+            Dabur Chyawanprash - 950g | With 40+ Ayurvedic Herbs | Helps Build
+            Strength & Stamina | Builds Overall Health </b>
+          <br />
+          <br />
+          <button class="add-to-cart" data-product="Health Product">
+            Add to Cart
+          </button>
+          <button class="buy-now" data-product="Health Product">Buy Now</button>
+        </p>
+      </div>
+
+      <div class="product">
+        <img src="project photo/h1p4.jpg" alt="Product 4" />
+        <p>
+          <b
+            >Complan Nutrition Drink Powder for Children, Kesar Badam Flavour,
+            500 g Carton | Nutrition drink for kids with protein & 34 vital
+            nutrients</b
+          >
+        </p>
+        <button class="add-to-cart" data-product="Health Product">
+          Add to Cart
+        </button>
+        <button class="buy-now" data-product="Health Product">Buy Now</button>
+      </div>
+      <div class="product">
+        <img src="project photo/h1p5.jpg" alt="Product 5" />
+        <p>
+          <b>
+            Horlicks Nutrition drink jar-1kg ,classic maltclinically proven to
+            make kids taller,stronger,sharper improve brain power</b
+          ><br /><br /><br />
+          <button class="add-to-cart" data-product="Health Product">
+            Add to Cart
+          </button>
+          <button class="buy-now" data-product="Health Product">Buy Now</button>
+        </p>
+      </div>
+      <div class="product">
+        <img src="project photo/h1p6.jpg" alt="Product 6" />
+        <p>
+          <b
+            >Gluvon-D trangly orange glucose power (1kg,refil)tasky orange
+            flavoured glucose drink| provides instent engery,vitamin-c </b
+          ><br /><br />
+          <button class="add-to-cart" data-product="Health Product">
+            Add to Cart
+          </button>
+          <button class="buy-now" data-product="Health Product">Buy Now</button>
+        </p>
+      </div>
+      <br />
+      <h1>Daily use products</h1>
+      <br />
+      <div class="product">
+        <img src="project photo/h1d1.jpg" alt="Product 1" />
+        <p>
+          <b
+            >(Colgate Strong Teeth, 700G, India S No: 1 Toothpaste Brand,
+            Calcium-Boost Tooth Paste For 2X Stronger Teeth, Whitens Teeth)..</b
+          >
+        </p>
+        <button class="add-to-cart" data-product="Daily use products">
+          Add to Cart
+        </button>
+        <button class="buy-now" data-product="Daily use products">
+          Buy Now
+        </button>
+      </div>
+      <div class="product">
+        <img src="project photo/h1d2.jpg" alt="Product 2" />
+        <p>
+          <b
+            >Colgate MaxFresh Toothpaste, Red Gel Tooth Paste with Menthol for
+            Super Fresh Breath, 150g (Spicy Fresh)colgaet maxfresh- mood fresh
+          </b>
+        </p>
+        <button class="add-to-cart" data-product="Daily use products">
+          Add to Cart
+        </button>
+        <button class="buy-now" data-product="Daily use products">
+          Buy Now
+        </button>
+      </div>
+      <div class="product">
+        <img src="project photo/h1d3.jpg" alt="Product 3" />
+        <p>
+          <b
+            >Clinic Plus Strong & Long Shampoo 1 L|| With Milk Proteins &
+            Multivitamins for Healthy and Long Hair - Strengthening Shampoo for
+            Hair Growth</b
+          >
+        </p>
+        <button class="add-to-cart" data-product="Daily use products">
+          Add to Cart
+        </button>
+        <button class="buy-now" data-product="Daily use products">
+          Buy Now
+        </button>
+      </div>
+      <div class="product">
+        <img src="project photo/h1d4.jpg" alt="Product 4" />
+        <p>
+          <b
+            >Dettol Antiseptic Liquid for First Aid, Surface Disinfection and
+            Personal Hygiene, 750ml</b
+          >
+        </p>
+        <button class="add-to-cart" data-product="Daily use products">
+          Add to Cart
+        </button>
+        <button class="buy-now" data-product="Daily use products">
+          Buy Now
+        </button>
+      </div>
+      <div class="product">
+        <img src="project photo/h1d5.jpg" alt="Product 5" />
+        <p>
+          <b
+            >All Out Ultra Liquid Vaporizer, 6 Refills (45ml each) | Kills
+            Dengue, Malaria & Chikungunya Spreading Mosquitoes|
+          </b>
+        </p>
+        <button class="add-to-cart" data-product="Daily use products">
+          Add to Cart
+        </button>
+        <button class="buy-now" data-product="Daily use products">
+          Buy Now
+        </button>
+      </div>
+      <div class="product">
+        <img src="project photo/h1d6.jpg" alt="Product 6" />
+        <p>
+          <b
+            >HIT Flying Insect Killer - Mosquito & Fly Killer Spray (400ml) |
+            Lime Fragrance | Instant Kill |</b
+          >
+        </p>
+        <button class="add-to-cart" data-product="Daily use products">
+          Add to Cart
+        </button>
+        <button class="buy-now" data-product="Daily use products">
+          Buy Now
+        </button>
+      </div>
+    </div>
+    <br />
+    <footer>
+      <div class="foot-panel">
         <a href="#">Back to top</a>
-    </div>
+      </div>
 
-    <div class="foot-panel-2">
+      <div class="foot-panel-2">
         <ul>
-            <p>Get to Know Us</p>
-            <a href="#">Careers</a>
-            <a href="#">Blog</a>
-            <a href="#">About Shree</a>
-            <a href="#">Investor Relations</a>
-            <a href="#">Devices</a>
-            <a href="#">Science</a>
+          <p>Get to Know Us</p>
+          <a href="#">Careers</a>
+          <a href="#">Blog</a>
+          <a href="#">About Shree</a>
+          <a href="#">Investor Relations</a>
+          <a href="#">Devices</a>
+          <a href="#">Science</a>
         </ul>
 
         <ul>
-            <p>Make Money with Us</p>
-            <a href="#">Sell on Shree</a>
-            <a href="#">Become an Affiliate</a>
-            <a href="#">Advertise Your Products</a>
-            <a href="#">Shree Business</a>
+          <p>Make Money with Us</p>
+          <a href="#">Sell on Shree</a>
+          <a href="#">Become an Affiliate</a>
+          <a href="#">Advertise Your Products</a>
+          <a href="#">Shree Business</a>
         </ul>
 
         <ul>
-            <p>Contact Us</p>
-            <a href="mailto:support@shree.com">Email: support@shree.com</a>
-            <a href="tel:+1234567890">Phone: +91 9156002433</a>
-            <a href="#">Address:A.P shrigonda,shrigonda ,INDIA </a>
+          <p>Contact Us</p>
+          <a href="mailto:support@shree.com">Email: support@shree.com</a>
+          <a href="tel:+1234567890">Phone: +91 9156002433</a>
+          <a href="#">Address:A.P shrigonda,shrigonda ,INDIA </a>
         </ul>
 
         <ul>
-            <p>Follow Us</p>
-            <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
-            <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
-            <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
-            <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          <p>Follow Us</p>
+          <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+          <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+          <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+          <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
         </ul>
 
         <ul>
-            <p>Legal</p>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Service</a>
+          <p>Legal</p>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
         </ul>
-    </div>
+      </div>
 
-    <div class="foot-panel-3">
+      <div class="foot-panel-3">
         <p>Subscribe to Our Newsletter</p>
         <form action="#" method="post">
-            <input type="email" placeholder="Enter your email" required>
-            <button type="submit">Subscribe</button>
+          <input type="email" placeholder="Enter your email" required />
+          <button type="submit">Subscribe</button>
         </form>
-    </div>
+      </div>
 
-    <div class="foot-panel-4">
+      <div class="foot-panel-4">
         <p>© 2025 Shree. All Rights Reserved.</p>
-    </div>
-</footer>
-  
-       
-</body>
+      </div>
+    </footer>
+  </body>
 </html>
