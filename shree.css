@@ -324,14 +324,14 @@ body {
 .shop-section {
   display: grid;
 
-  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  grid-template-columns: repeat(3, 1fr); /* Two columns */
   gap: 20px;
   padding: 20px;
 }
 
 .box {
   background-color: whitesmoke;
-  width: 450px;
+  width:100%;
   padding: 20px;
   height: 510px;
   text-align: center;
