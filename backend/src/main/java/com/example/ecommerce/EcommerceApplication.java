@@ -57,7 +57,7 @@ public class EcommerceApplication {
             Connection con = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/ecommerce_db",
                     "root",
-                    "jay21"
+                    "Jayesh@123"
             );
 
             PreparedStatement ps =
