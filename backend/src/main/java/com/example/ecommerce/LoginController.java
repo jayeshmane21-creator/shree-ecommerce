@@ -17,7 +17,7 @@ public class LoginController {
 
     String url = "jdbc:mysql://localhost:3306/Ecommerce_db";
     String user = "root";      // OR ecom
-    String pass = "jay21";  // EXACT MySQL password
+    String pass = "Jayesh@123";  // EXACT MySQL password
 
     @PostMapping("/register")
     public String register(@RequestParam String username,
